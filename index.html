@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rithvik</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            text-align: left;
+            background-color: #e6ebfb;
+            padding: 20px;
+        }
+        p {
+            text-align: justify;
+               
+        }
+        .profile-container {
+            display:center;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .name-icons{
+            text-align:center;
+        }
+        .icons a {
+            display:contents;
+            align-items: center;
+            color: black;
+            font-size: 14px;
+            text-decoration: none;
+            margin-top: 5px;
+        }
+        .icons a i {
+            margin-right: 5px;
+        }
+        .typing {
+            display:inline-block;
+            overflow:scroll;
+            border-right: 2px solid rgb(66, 243, 95);
+            white-space: nowrap;
+            animation: typing 28s steps(40,end) forwards, blink 500s infinite;
+        }
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: black; }
+        }
+    </style>
+</head>
+<body style="background-image:url('baat.png')">
+    <div class="profile-container">
+        <img src="avatar.png" alt="Profile Picture" class="profile-img">
+        <div class="name-icons">
+            <h3>rithvikk</h3>
+            <div class="icons">
+                <a href="https://github.com/Rithvikcc"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://mailchi.mp/8b5b08ecd7f6/electron"><i class="fas fa-envelope-open-text"></i> Newsletter</a>
+                <a href="mailto:rithvikkodisela001@gmail.com"><i class="fas fa-envelope"></i> Mail</a>
+                <div class="bio">
+                    <p><span style="color: rgb(0, 0, 0); font-family: 'Courier New', Courier, monospace; text-align: center; font-weight:bolder; font-size:large;">Hi,I'm <span id="typing" style="color: rgb(28, 208, 73);">rithvik.</span><span> A Ml Enthusiast🤦‍♂️</span></p>
+            
+                        <p style="font-family: 'Courier New', Courier, monospace; font-weight:bold; font-size:18px;">* Hey,sup People! thanks for landing here. I'm a complete beginner who just 
+                            started exploring the🌍of machine learning(uhh! AI) and LLMs. 
+                            Lately I've been working on web development,and I'm familiar with so-called AI tools.Currently,I'm spend my <class style="background-color: rgb(150, 144, 144); color: grey;">time </class> trying to understand what 
+                            these AI models are actually doing (Honestly, half the 
+                            time,i'm just nodding along,pretending I get it🤡).</p>
+                          
+                          <p style="font-family: 'Courier New', Courier, monospace; font-weight: bolder; font-size: 18px;">* I barely knew what ML meant, and now 
+                            I'm figuring out concepts like <class style="font-weight: lighter;">WTF are transformers(GPT)and Neural Networks</class>.Still very much a rookie, 
+                            but I'm getting the hang of it🤧.Have you ever wondered how GPT🧠 was built and how it trains behind the scenes? Me too.
+
+                          <p style="font-family:'Courier New', Courier, monospace; font-weight: bolder; font-size: 18px;"> 
+                          * Purpose of creating this site -I needed a place to dump 
+                            my learning process(and my many,many mistakes). 
+                            I borrowed(lol) this clean look from smarter 
+                            people on the internet to keep things simple and 
+                            focused on the learning.</p> 
+                            <p style="font-family:'Courier New', Courier, monospace; text-align: center;"><class style="background-color: rgb(56, 50, 50);">Note:i stole it from Chat</p></style>
+                            <p style="position: absolute; opacity: unset; color: #c4dcf1; font-weight:normal;">This site is in progress</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var typed = new Typed("#typing", {
+            strings: ["A ML Engineer"],
+            typeSpeed: 50,
+            backSpeed: 300,
+            loop: true
+        });
+    </script>
+</body>
+</html>
